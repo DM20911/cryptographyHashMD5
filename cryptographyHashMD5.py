@@ -5,8 +5,8 @@ from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import hashes
 import binascii
 
+#Path file, example:
 inputFile = "/Users/dm20911/Documents/python/m2 master/WinMD5_2.exe"
-#inputFile = "/Users/dm20911/Documents/python/m2 master/WinMD5.exe"
 openedFile = open(inputFile,mode='rb')
 readFile = openedFile.read()
 
